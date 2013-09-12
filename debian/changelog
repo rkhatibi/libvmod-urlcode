@@ -1,0 +1,5 @@
+libvmod-urlcode (1.0) unstable; urgency=low
+
+  * Better debian build scripts
+
+ -- Ramin Khatibi <ops@snappytv.com>  wed, 12 Sep 2013 11:46:30 +0700

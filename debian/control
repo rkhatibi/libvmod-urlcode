@@ -1,0 +1,12 @@
+Source: libvmod-urlcode
+Section: web
+Priority: extra
+Maintainer: Rogier "DocWilco" Mulhuijzen <rogier@fastly.com>
+Build-Depends: debhelper (>= 7), build-essential, python-docutils, libvarnishapi-dev (>= 3)
+Standards-Version: 3.8.1
+Vcs-Git: https://github.com/fastly/libvmod-urlcode
+
+Package: libvmod-urlcode
+Architecture: any
+Depends: varnish (>= 3), ${misc:Depends}
+Description: urlencode/urldecode functions vmod
